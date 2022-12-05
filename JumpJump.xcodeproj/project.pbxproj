@@ -17,6 +17,7 @@
 		ECAC5C72293D36B00071F3E4 /* MenuScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = ECAC5C71293D36B00071F3E4 /* MenuScene.sks */; };
 		ECAC5C75293D45C30071F3E4 /* BACKTO1982.TTF in Resources */ = {isa = PBXBuildFile; fileRef = ECAC5C74293D458D0071F3E4 /* BACKTO1982.TTF */; };
 		ECAC5C78293D50D50071F3E4 /* MenuScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECAC5C77293D50D50071F3E4 /* MenuScene.swift */; };
+		ECC23BBE293DEB84000321B2 /* EndlessBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECC23BBD293DEB84000321B2 /* EndlessBackground.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 		ECAC5C74293D458D0071F3E4 /* BACKTO1982.TTF */ = {isa = PBXFileReference; lastKnownFileType = file; path = BACKTO1982.TTF; sourceTree = "<group>"; };
 		ECAC5C76293D48F00071F3E4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		ECAC5C77293D50D50071F3E4 /* MenuScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuScene.swift; sourceTree = "<group>"; };
+		ECC23BBD293DEB84000321B2 /* EndlessBackground.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EndlessBackground.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,17 +66,10 @@
 		ECAC5C59293D207C0071F3E4 /* JumpJump */ = {
 			isa = PBXGroup;
 			children = (
+				ECC23BC2293DF4D8000321B2 /* App */,
+				ECC23BC3293DF4ED000321B2 /* Scene */,
+				ECC23BC0293DF498000321B2 /* Resources */,
 				ECAC5C76293D48F00071F3E4 /* Info.plist */,
-				ECAC5C73293D45430071F3E4 /* Fonts */,
-				ECAC5C5A293D207C0071F3E4 /* AppDelegate.swift */,
-				ECAC5C5C293D207C0071F3E4 /* GameScene.sks */,
-				ECAC5C71293D36B00071F3E4 /* MenuScene.sks */,
-				ECAC5C77293D50D50071F3E4 /* MenuScene.swift */,
-				ECAC5C60293D207C0071F3E4 /* GameScene.swift */,
-				ECAC5C62293D207C0071F3E4 /* GameViewController.swift */,
-				ECAC5C64293D207C0071F3E4 /* Main.storyboard */,
-				ECAC5C67293D207D0071F3E4 /* Assets.xcassets */,
-				ECAC5C69293D207D0071F3E4 /* LaunchScreen.storyboard */,
 			);
 			path = JumpJump;
 			sourceTree = "<group>";
@@ -85,6 +80,54 @@
 				ECAC5C74293D458D0071F3E4 /* BACKTO1982.TTF */,
 			);
 			path = Fonts;
+			sourceTree = "<group>";
+		};
+		ECC23BBF293DF487000321B2 /* GameScene */ = {
+			isa = PBXGroup;
+			children = (
+				ECAC5C5C293D207C0071F3E4 /* GameScene.sks */,
+				ECAC5C60293D207C0071F3E4 /* GameScene.swift */,
+			);
+			path = GameScene;
+			sourceTree = "<group>";
+		};
+		ECC23BC0293DF498000321B2 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				ECAC5C73293D45430071F3E4 /* Fonts */,
+				ECAC5C67293D207D0071F3E4 /* Assets.xcassets */,
+				ECAC5C69293D207D0071F3E4 /* LaunchScreen.storyboard */,
+				ECAC5C64293D207C0071F3E4 /* Main.storyboard */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		ECC23BC1293DF4C8000321B2 /* MenuScene */ = {
+			isa = PBXGroup;
+			children = (
+				ECAC5C77293D50D50071F3E4 /* MenuScene.swift */,
+				ECAC5C71293D36B00071F3E4 /* MenuScene.sks */,
+			);
+			path = MenuScene;
+			sourceTree = "<group>";
+		};
+		ECC23BC2293DF4D8000321B2 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				ECAC5C5A293D207C0071F3E4 /* AppDelegate.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		ECC23BC3293DF4ED000321B2 /* Scene */ = {
+			isa = PBXGroup;
+			children = (
+				ECC23BBD293DEB84000321B2 /* EndlessBackground.swift */,
+				ECAC5C62293D207C0071F3E4 /* GameViewController.swift */,
+				ECC23BBF293DF487000321B2 /* GameScene */,
+				ECC23BC1293DF4C8000321B2 /* MenuScene */,
+			);
+			path = Scene;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -163,6 +206,7 @@
 			files = (
 				ECAC5C61293D207C0071F3E4 /* GameScene.swift in Sources */,
 				ECAC5C78293D50D50071F3E4 /* MenuScene.swift in Sources */,
+				ECC23BBE293DEB84000321B2 /* EndlessBackground.swift in Sources */,
 				ECAC5C63293D207C0071F3E4 /* GameViewController.swift in Sources */,
 				ECAC5C5B293D207C0071F3E4 /* AppDelegate.swift in Sources */,
 			);
